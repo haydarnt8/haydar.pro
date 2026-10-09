@@ -1,0 +1,40 @@
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+.vercel
+
+# Node dependencies
+node_modules
+
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+.fleet
+.idea
+
+# Local env files
+.env
+.env.*
+!.env.example
+
+# Raw Framer MCP design dumps (large, regenerable, may embed project metadata)
+design/raw/
+
+# verification harness
+test-results/
+playwright-report/
+
+# Profile-picture exports: made by scripts/generate-icons.mjs, uploaded by hand, never served.
+design/logo/exports/
+
+# Local working notes and browser-tool dumps: never committed.
+DESIGN-IS-2026-09-28/
+.playwright-mcp/
+.vercel-static.tgz

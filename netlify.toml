@@ -1,0 +1,37 @@
+# Netlify build for the prerendered Nuxt site.
+#
+# The site is fully static — `nuxt generate` prerenders every route, including
+# the Arabic locale, the sitemap and robots.txt — so there is no serverless
+# function here and nothing runs at request time.
+#
+# `NITRO_PRESET` is what makes that land in `dist/`. `nuxt.config.ts` defaults
+# to `vercel-static`, because the verification harness serves
+# `.vercel/output/static`; this overrides it for Netlify's own builds only.
+# Nitro's `netlify-static` preset also emits `_headers` and `_redirects` into
+# `dist/`, which is where the long-cache rule for hashed assets comes from —
+# it is not repeated below, so there is one source for it.
+
+[build]
+  command = "pnpm run generate"
+  publish = "dist"
+
+[build.environment]
+  NITRO_PRESET = "netlify-static"
+  # PINNED, AND NOT TO A MAJOR ALONE. The toolchain's floors are narrow and
+  # they disagree: vite, rolldown and oxc-parser want `^20.19.0 || >=22.12.0`,
+  # while nuxt 4.5 wants `^22.19.0 || ^24.11.0 || >=26.0.0`. A bare "22" can
+  # resolve below 22.12 and the build dies inside oxc-walker with "could not
+  # resolve a parseSync implementation", which reads like a dependency fault
+  # and is really a Node one — that exact failure cost an hour here. 24 clears
+  # both floors and is what this site has actually been built and verified on.
+  NODE_VERSION = "24"
+  # Corepack reads `packageManager` from package.json, so the pnpm version is
+  # pinned in one place rather than two.
+  NETLIFY_USE_PNPM = "true"
+
+# NO [[redirects]] AND NO [[headers]] HERE, deliberately. The `netlify-static`
+# preset writes `_headers` and `_redirects` into `dist/` itself — including the
+# long-cache rule for hashed assets, the sitemap's content types, and
+# `/* /404.html 404`. Repeating any of them here would be the same fact in two
+# places, and netlify.toml wins over the generated files, so the copy would
+# quietly become the truth and drift.

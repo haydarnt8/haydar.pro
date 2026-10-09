@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "homeTitle": "{name} — Frontend Developer",
+    "homeDescription": "{summary}",
+    "jobTitle": "Frontend Developer",
+    "aboutTitle": "About me — {name}",
+    "projectsTitle": "Projects — {name}",
+    "projectsDescription": "The {count} projects I’ve worked on as a frontend developer, from ERP systems to event dashboards.",
+    "projectTitle": "{title} — {name}",
+    "projectDescription": "{title}, one of the projects I’ve worked on as a frontend developer.",
+    "notFoundTitle": "{status} — Page not found",
+    "errorTitle": "{status} — Something went wrong"
+  },
+  "sections": {
+    "about": "About",
+    "experience": "Where I’ve worked",
+    "projects": "Projects",
+    "stack": "My tech stack",
+    "services": "What I do best",
+    "preferEmail": "Prefer to email me?",
+    "aboutHeading": "About me",
+    "myStory": "My story",
+    "whatIDoNow": "What I’m up to now"
+  },
+  "cursor": {
+    "view": "View",
+    "push": "Push",
+    "drag": "Drag"
+  },
+  "hero": {
+    "greeting": "Hi, I’m {name} —",
+    "cv": "CV",
+    "cvName": "My CV (PDF)"
+  },
+  "projects": {
+    "all": "All {count} projects",
+    "fromRoles": "{count} projects from the jobs listed on",
+    "aboutLink": "my About page",
+    "ndaNote": "Blurred on purpose: client work under NDA"
+  },
+  "caseStudy": {
+    "label": "Case study",
+    "problem": "The problem",
+    "constraints": "What I worked within",
+    "decisions": "Decisions I made",
+    "tradeoff": "The trade-off",
+    "evidence": "By the numbers",
+    "flow": "How it fits together",
+    "source": "Source: {source}",
+    "external": "Not mine"
+  },
+  "tour": {
+    "overview": "What it is",
+    "overviewLabel": "Overview",
+    "does": "What it does",
+    "step": "Step {n} of {total}",
+    "goTo": "Step {n}: {title}",
+    "steps": "The steps of the tour",
+    "inside": "Scroll to step inside",
+    "resize": {
+      "label": "Screen width",
+      "hint": "Drag the edge of the screen and see it switch.",
+      "desktop": "desktop layout",
+      "phone": "phone layout",
+      "value": "{n} px, {layout}"
+    },
+    "flip": "What did it cost?",
+    "back": "Back to the decision",
+    "next": "Next project"
+  },
+  "project": {
+    "stack": "Built with",
+    "technical": "How I built it"
+  },
+  "contact": {
+    "heading": "Send me a short message",
+    "emailLabel": "Your email",
+    "placeholder": "Your email",
+    "send": "Send",
+    "sending": "Sending…",
+    "sent": "Thanks! I’ll get back to you soon.",
+    "failedLead": "That didn’t go through. You can email me at",
+    "failedTail": "instead.",
+    "honeypot": "Leave this field empty",
+    "next": "Next",
+    "messageLabel": "What it’s about",
+    "messagePlaceholder": "What’s it about?",
+    "back": "Change your email",
+    "invalidEmail": "I need a real email address to write back to.",
+    "emptyMessage": "Tell me a little about it first.",
+    "retry": "Try again",
+    "another": "Send another",
+    "replyTo": "I’ll reply to {email}"
+  },
+  "emailCopy": {
+    "copy": "Copy email",
+    "copied": "Copied!",
+    "copiedStatus": "Email copied.",
+    "failed": "Couldn’t copy it automatically.",
+    "manual": "You can copy it from here:"
+  },
+  "slider": {
+    "carousel": "carousel",
+    "slide": "slide",
+    "previous": "Previous slide",
+    "next": "Next slide",
+    "goTo": "Go to slide {n}",
+    "position": "Slide {n} of {count}",
+    "indexOf": "{n} of {count}",
+    "photoGallery": "Photo gallery",
+    "projectGallery": "{title} gallery"
+  },
+  "a11y": {
+    "socialLinks": "Find me online",
+    "closeOverlay": "Close and go back home",
+    "newTab": "(opens in a new tab)",
+    "lightMode": "Light mode",
+    "language": "Language",
+    "portrait": "Portrait of {name}",
+    "screenshot": "Screenshot of {title}",
+    "cover": "Cover for {title}",
+    "galleryImage": "{title}, image {n}",
+    "linkNotAvailable": "{label} — link coming soon",
+    "linkNotSupplied": "{label} link coming soon"
+  },
+  "todo": {
+    "tag": "Coming soon",
+    "unwritten": "Still being written: {label}",
+    "noPhoto": "photo",
+    "noScreenshot": "screenshot",
+    "noScreenshots": "screenshots",
+    "noImage": "image",
+    "noLinks": "live site and code links",
+    "listBuilt": "TODO: what I built on {title}"
+  },
+  "period": {
+    "current": "Now"
+  },
+  "employment": {
+    "full-time": "full-time",
+    "part-time": "part-time",
+    "freelance": "freelance",
+    "contract": "contract"
+  },
+  "arrangement": {
+    "on-site": "on-site",
+    "hybrid": "hybrid",
+    "remote": "remote"
+  },
+  "list": {
+    "separator": ", "
+  },
+  "error": {
+    "notFound": "This page doesn’t exist, or it has moved.",
+    "generic": "Something went wrong on my end. Try again in a moment.",
+    "home": "Back to home"
+  },
+  "roleAt": "{role} at {company}"
+}

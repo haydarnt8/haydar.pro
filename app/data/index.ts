@@ -1,0 +1,7 @@
+export { phoneHref, profile, socials } from './profile'
+export { experience } from './experience'
+export { education } from './education'
+export { skillGroups, stack } from './skills'
+export { projects, FEATURED } from './projects'
+export { services } from './services'
+export { gallery, type GalleryImage } from './gallery'

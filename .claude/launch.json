@@ -1,0 +1,18 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "portfolio",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["run", "dev"],
+      "port": 3000,
+      "autoPort": true
+    },
+    {
+      "name": "built-site",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["scripts/verify/lib/serve.mjs"],
+      "port": 4173
+    }
+  ]
+}

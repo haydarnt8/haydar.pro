@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "homeTitle": "{name} — مطور واجهات أمامية",
+    "homeDescription": "{summary}",
+    "jobTitle": "مطور واجهات أمامية",
+    "aboutTitle": "منو اني؟ — {name}",
+    "projectsTitle": "المشاريع — {name}",
+    "projectsDescription": "المشاريع اللي اشتغلت عليها ({count})، من أنظمة ERP للوحات تحكم الفعاليات.",
+    "projectTitle": "{title} — {name}",
+    "projectDescription": "{title}، واحد من المشاريع اللي اشتغلت عليها.",
+    "notFoundTitle": "{status} — الصفحة ماكو منها",
+    "errorTitle": "{status} — صار خطأ"
+  },
+  "sections": {
+    "about": "منو اني؟",
+    "experience": "وين اشتغلت",
+    "projects": "المشاريع",
+    "stack": "بشنو اشتغل",
+    "services": "شنو أحسن شي أسويه",
+    "preferEmail": "تحب تدزلي إيميل؟",
+    "aboutHeading": "شوية عني",
+    "myStory": "سالفتي",
+    "whatIDoNow": "شدا أسوي هسه"
+  },
+  "cursor": {
+    "view": "شوف",
+    "push": "طيحها",
+    "drag": "اسحب"
+  },
+  "hero": {
+    "greeting": "هلا اني {name} —",
+    "cv": "سيرتي",
+    "cvName": "سيرتي الذاتية بالإنكليزي"
+  },
+  "projects": {
+    "all": "كل مشاريعي ({count})",
+    "fromRoles": "المشاريع ({count}) من الشغلات المذكورة بـ",
+    "aboutLink": "صفحة «منو اني؟»",
+    "ndaNote": "غبشت الصور عن قصد: الشغل تحت اتفاقية سرية"
+  },
+  "caseStudy": {
+    "label": "دراسة حالة",
+    "problem": "المشكلة",
+    "constraints": "شنو جان لازم أراعي",
+    "decisions": "قرارات أخذتها",
+    "tradeoff": "شنو كلفني",
+    "evidence": "بالأرقام",
+    "flow": "شلون يشتغل سوه",
+    "source": "المصدر: {source}",
+    "external": "مو مالتي"
+  },
+  "tour": {
+    "overview": "شنو هو",
+    "overviewLabel": "نظرة عامة",
+    "does": "شنو تسوي",
+    "step": "الخطوة {n} من {total}",
+    "goTo": "الخطوة {n}: {title}",
+    "steps": "خطوات الجولة",
+    "inside": "انزل حتى تدخل للشاشة",
+    "resize": {
+      "label": "عرض الشاشة",
+      "hint": "اسحب حافة الشاشة وشوفها شلون تتبدل.",
+      "desktop": "تصميم الكمبيوتر",
+      "phone": "تصميم الموبايل",
+      "value": "{n} px، {layout}"
+    },
+    "flip": "شنو كلفني؟",
+    "back": "ارجع للقرار",
+    "next": "المشروع الجاي"
+  },
+  "project": {
+    "stack": "بنيته بـ",
+    "technical": "شلون بنيته"
+  },
+  "contact": {
+    "heading": "دزلي رسالة قصيرة",
+    "emailLabel": "إيميلك",
+    "placeholder": "إيميلك",
+    "send": "دز",
+    "sending": "دا ينرسل…",
+    "sent": "تسلم! راح أرجعلك قريب.",
+    "failedLead": "ما انرسلت. دزلي مباشرة على",
+    "failedTail": "وأرجعلك.",
+    "honeypot": "خلي هذا الحقل فارغ",
+    "next": "كمل",
+    "messageLabel": "شنو الموضوع",
+    "messagePlaceholder": "شنو الموضوع؟",
+    "back": "غير إيميلك",
+    "invalidEmail": "أحتاج إيميل صحيح حتى أرجعلك.",
+    "emptyMessage": "گلي شوية عن الموضوع أول.",
+    "retry": "جرب مرة لخ",
+    "another": "دز رسالة لخ",
+    "replyTo": "راح أرد على {email}"
+  },
+  "emailCopy": {
+    "copy": "انسخ الإيميل",
+    "copied": "نسخته!",
+    "copiedStatus": "نسخت الإيميل.",
+    "failed": "ما گدرت أنسخه.",
+    "manual": "انسخه من هنا:"
+  },
+  "slider": {
+    "carousel": "معرض",
+    "slide": "شريحة",
+    "previous": "الشريحة اللي قبلها",
+    "next": "الشريحة اللي بعدها",
+    "goTo": "روح للشريحة {n}",
+    "position": "الشريحة {n} من {count}",
+    "indexOf": "{n} من {count}",
+    "photoGallery": "صوري",
+    "projectGallery": "صور {title}"
+  },
+  "a11y": {
+    "socialLinks": "وين تلگاني",
+    "closeOverlay": "سد وارجع للرئيسية",
+    "newTab": "(ينفتح بتبويب جديد)",
+    "lightMode": "الوضع الفاتح",
+    "language": "اللغة",
+    "portrait": "صورة {name}",
+    "screenshot": "لقطة شاشة من {title}",
+    "cover": "غلاف {title}",
+    "galleryImage": "{title}، الصورة {n}",
+    "linkNotAvailable": "{label} — الرابط بعده مو جاهز",
+    "linkNotSupplied": "رابط {label} بعده مو جاهز"
+  },
+  "todo": {
+    "tag": "قريبا",
+    "unwritten": "بعده ما انكتب: {label}",
+    "noPhoto": "الصورة",
+    "noScreenshot": "لقطة الشاشة",
+    "noScreenshots": "لقطات الشاشة",
+    "noImage": "الصورة",
+    "noLinks": "رابط الموقع والكود",
+    "listBuilt": "TODO: شنو سويت بـ {title}"
+  },
+  "period": {
+    "current": "هسه"
+  },
+  "employment": {
+    "full-time": "دوام كامل",
+    "part-time": "دوام جزئي",
+    "freelance": "فري لانس",
+    "contract": "بعقد"
+  },
+  "arrangement": {
+    "on-site": "بالمكتب",
+    "hybrid": "بين المكتب والبيت",
+    "remote": "من البيت"
+  },
+  "list": {
+    "separator": "، "
+  },
+  "error": {
+    "notFound": "هاي الصفحة ماكو منها، يمكن انشالت.",
+    "generic": "صار خطأ من صوبي. جرب مرة لخ.",
+    "home": "ارجع للرئيسية"
+  },
+  "roleAt": "{role} بـ {company}"
+}

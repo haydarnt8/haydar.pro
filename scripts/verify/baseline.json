@@ -1,0 +1,115 @@
+{
+  "at": "2026-09-16T12:37:50.213Z",
+  "results": {
+    "mobile /": {
+      "performance": 85,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 100,
+      "fcp": 2857,
+      "lcp": 3307,
+      "tbt": 43,
+      "cls": 0,
+      "si": 4284
+    },
+    "mobile /about": {
+      "performance": 86,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 100,
+      "fcp": 2855,
+      "lcp": 3155,
+      "tbt": 44,
+      "cls": 0.007,
+      "si": 4334
+    },
+    "mobile /projects": {
+      "performance": 89,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 100,
+      "fcp": 2404,
+      "lcp": 2558,
+      "tbt": 12,
+      "cls": 0.112,
+      "si": 4231
+    },
+    "mobile /projects/gudea-event-dashboard": {
+      "performance": 85,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 100,
+      "fcp": 2405,
+      "lcp": 2705,
+      "tbt": 12,
+      "cls": 0.151,
+      "si": 4139
+    },
+    "mobile /ar": {
+      "performance": 81,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 100,
+      "fcp": 3306,
+      "lcp": 3614,
+      "tbt": 46,
+      "cls": 0.018,
+      "si": 4531
+    },
+    "desktop /": {
+      "performance": 98,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 100,
+      "fcp": 608,
+      "lcp": 731,
+      "tbt": 0,
+      "cls": 0.005,
+      "si": 1469
+    },
+    "desktop /about": {
+      "performance": 97,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 100,
+      "fcp": 647,
+      "lcp": 687,
+      "tbt": 0,
+      "cls": 0.013,
+      "si": 1627
+    },
+    "desktop /projects": {
+      "performance": 98,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 100,
+      "fcp": 524,
+      "lcp": 568,
+      "tbt": 0,
+      "cls": 0.001,
+      "si": 1558
+    },
+    "desktop /projects/gudea-event-dashboard": {
+      "performance": 98,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 100,
+      "fcp": 525,
+      "lcp": 565,
+      "tbt": 0,
+      "cls": 0.005,
+      "si": 1521
+    },
+    "desktop /ar": {
+      "performance": 98,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 100,
+      "fcp": 687,
+      "lcp": 764,
+      "tbt": 0,
+      "cls": 0.013,
+      "si": 1498
+    }
+  }
+}
